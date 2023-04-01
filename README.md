@@ -10,7 +10,7 @@ To find out the relation between a player's personal stats and attributes and th
 As a measure of team performance, our response variable will be the net_rating of the individual players.
 
 ## Analysis Walkthrough
-__Bolded points are new things we have implemented__
+__Bolded points are new techniques we have implemented__
 1. Data Preparation & Cleaning
   - Remove rows that we feel is irrelevant to our analysis (E.g. name, college, season, etc.)
   - __Data Binning__
@@ -39,7 +39,7 @@ Based on the mean squared error and R^2 values of the model, we have found that 
 ## Contributors
 - Randall Chiang Tian Cong U2222099A
 - Gary
-- Trisha
+- Trisha Bankata Mishra U2222358J
 
 ## References
 Dataset: https://www.kaggle.com/datasets/justinas/nba-players-data
