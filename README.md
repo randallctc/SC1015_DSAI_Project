@@ -24,17 +24,16 @@ __Bolded points are new techniques we have implemented__
   - __Calculation of non-linear correlation using Kendall's Rank coefficient__
 3. Model Training Attempt
   - __Use of mutual information regression to measure the statistical dependence of predicotrs with response__
-  - __Use of Seleck K best to select the features with the highest mutual information scores (k = 5 for our model)__
   - Split dataset into 80-20 train-test datasets
   - Use of decision tree regressor as our machine learning model
-  - Calculation of MSE, MAS, and R^2 to measure accuracy of model
+  - Use of cross validation to calculate MSE, MAS, and R^2 to measure accuracy of model
   
 ## Conclusion
 From our exploratory analysis, we have discovered that personal stats and attributes have little to no linear correlation with team performance. Hence, we took a non-linear approach to the relationship but through our analysis, there seems to be little to no non-linear correlation as well.
 
 For our attempt at model training to predict team performance of a player based on their personal stats and attributes, we used a decision tree regressor due to the complex correlation of the predictors and the continuous nature of our response variable.
 
-Based on the mean squared error and R^2 values of the model, we have found that personal stats and attributes are a poor predictor of team performance. Hence, we can conclude that even if a player has exceptional personal statistics or attributes, it does not necessarily guarantee that their team will perform well. Other factors such as team chemistry, coaching, and strategy may have a more significant impact on team performance. Therefore, it is important for teams to consider a variety of factors when evaluating and building their rosters and not focus on individual performances.
+Based on the mean squared error, mean absolute error and R^2 values of the model, we have found that personal stats and attributes are a poor predictor of team performance. Hence, we can conclude that even if a player has exceptional personal statistics or attributes, it does not necessarily guarantee that their team will perform well. Other factors such as team chemistry, coaching, and strategy may have a more significant impact on team performance. Therefore, it is important for teams to consider a variety of factors when evaluating and building their rosters and not focus on individual performances.
   
 ## Contributors
 - Randall Chiang Tian Cong U2222099A
