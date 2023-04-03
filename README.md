@@ -37,7 +37,7 @@ Based on the mean squared error, mean absolute error and R^2 values of the model
   
 ## Contributors
 - Randall Chiang Tian Cong U2222099A
-- Gary
+- Leo Kee Soon Gary U22222411L
 - Trisha Bankata Mishra U2222358J
 
 ## References
