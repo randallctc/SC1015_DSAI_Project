@@ -23,7 +23,7 @@ __Bolded points are new techniques we have implemented__
   - Calculation of linear correlation using Pearson's correlation coefficient
   - __Calculation of non-linear correlation using Kendall's Rank coefficient__
 3. Model Training Attempt
-  - __Use of mutual information regression to measure the statistical dependence of predicotrs with response__
+  - __Use of mutual information regression to measure the statistical dependence of predictors with response__
   - Split dataset into 80-20 train-test datasets
   - Use of decision tree regressor as our machine learning model
   - Use of cross validation to calculate MSE, MAS, and R^2 to measure accuracy of model
